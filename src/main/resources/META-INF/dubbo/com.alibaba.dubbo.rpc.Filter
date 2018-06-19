@@ -1,0 +1,1 @@
+hystrix=com.example.demo.filter.HystrixFilter
