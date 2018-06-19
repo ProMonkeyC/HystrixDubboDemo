@@ -1,6 +1,3 @@
-/**
- * Copyright 2018 asiainfo Inc.
- **/
 package com.example.demo.test;
 
 import java.util.concurrent.TimeUnit;
