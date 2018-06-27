@@ -16,7 +16,7 @@ import com.netflix.hystrix.HystrixCommand;
  * @author chenlong
  * Created on 2018/6/13
  */
-@Activate(group = Constants.CONSUMER, before = "future")
+@Activate(group = Constants.CONSUMER, before = "future") //Activate注解表示一个扩展是否被激活(使用),可以放在类定义和方法上，dubbo用它在spi扩展类定义上，表示这个扩展实现激活条件和时机
 public class HystrixFilter implements Filter {
 
 
